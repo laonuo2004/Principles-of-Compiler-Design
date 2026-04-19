@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#222222"/>
+    </marker>
+    <style>
+      .state { fill: #ffffff; stroke: #222222; stroke-width: 2.3; }
+      .edge { fill: none; stroke: #222222; stroke-width: 2.2; marker-end: url(#arrow); }
+      .label {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 24px;
+      }
+      .node {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 28px;
+      }
+    </style>
+  </defs>
+
+  <line x1="34" y1="130" x2="138" y2="130" class="edge"/>
+
+  <path d="M 158 96 C 132 26, 228 26, 202 96" class="edge"/>
+  <text x="180" y="32" text-anchor="middle" class="label">a,b</text>
+
+  <circle cx="180" cy="130" r="40" class="state"/>
+  <circle cx="180" cy="130" r="34" class="state"/>
+  <text x="180" y="139" text-anchor="middle" class="node">q0</text>
+</svg>

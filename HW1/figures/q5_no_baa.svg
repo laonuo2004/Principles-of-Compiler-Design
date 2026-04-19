@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#222222"/>
+    </marker>
+    <style>
+      .state { fill: #ffffff; stroke: #222222; stroke-width: 2.3; }
+      .edge { fill: none; stroke: #222222; stroke-width: 2.2; marker-end: url(#arrow); }
+      .label {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 24px;
+      }
+      .node {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 28px;
+      }
+    </style>
+  </defs>
+
+  <line x1="28" y1="150" x2="126" y2="150" class="edge"/>
+
+  <path d="M 138 116 C 112 52, 208 52, 182 116" class="edge"/>
+  <text x="160" y="46" text-anchor="middle" class="label">a</text>
+
+  <line x1="200" y1="150" x2="360" y2="150" class="edge"/>
+  <text x="264" y="130" text-anchor="middle" class="label">b</text>
+
+  <path d="M 378 116 C 352 52, 448 52, 422 116" class="edge"/>
+  <text x="400" y="46" text-anchor="middle" class="label">b</text>
+
+  <line x1="440" y1="150" x2="600" y2="150" class="edge"/>
+  <text x="504" y="130" text-anchor="middle" class="label">a</text>
+
+  <path d="M 604 176 C 560 232, 462 232, 436 176" class="edge"/>
+  <text x="470" y="242" text-anchor="middle" class="label">b</text>
+
+  <line x1="680" y1="150" x2="806" y2="150" class="edge"/>
+  <text x="743" y="130" text-anchor="middle" class="label">a</text>
+
+  <path d="M 818 116 C 792 52, 888 52, 862 116" class="edge"/>
+  <text x="840" y="46" text-anchor="middle" class="label">a,b</text>
+
+  <circle cx="160" cy="150" r="40" class="state"/>
+  <circle cx="160" cy="150" r="34" class="state"/>
+  <text x="160" y="159" text-anchor="middle" class="node">q0</text>
+
+  <circle cx="400" cy="150" r="40" class="state"/>
+  <circle cx="400" cy="150" r="34" class="state"/>
+  <text x="400" y="159" text-anchor="middle" class="node">q1</text>
+
+  <circle cx="640" cy="150" r="40" class="state"/>
+  <circle cx="640" cy="150" r="34" class="state"/>
+  <text x="640" y="159" text-anchor="middle" class="node">q2</text>
+
+  <circle cx="840" cy="150" r="34" class="state"/>
+  <text x="840" y="159" text-anchor="middle" class="node">qd</text>
+</svg>

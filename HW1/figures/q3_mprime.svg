@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#222222"/>
+    </marker>
+    <style>
+      .state { fill: #ffffff; stroke: #222222; stroke-width: 2.3; }
+      .edge { fill: none; stroke: #222222; stroke-width: 2.2; marker-end: url(#arrow); }
+      .label {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 24px;
+      }
+      .node {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 28px;
+      }
+    </style>
+  </defs>
+
+  <line x1="38" y1="185" x2="92" y2="185" class="edge"/>
+
+  <path d="M 146 156 C 200 112, 238 92, 282 92" class="edge"/>
+  <text x="206" y="110" text-anchor="middle" class="label">a</text>
+
+  <path d="M 148 203 C 194 241, 238 262, 290 266" class="edge"/>
+  <text x="208" y="272" text-anchor="middle" class="label">b</text>
+
+  <path d="M 298 56 C 272 8, 368 8, 342 56" class="edge"/>
+  <text x="320" y="18" text-anchor="middle" class="label">b</text>
+
+  <line x1="338" y1="90" x2="472" y2="90" class="edge"/>
+  <text x="405" y="70" text-anchor="middle" class="label">a</text>
+
+  <path d="M 488 56 C 462 8, 558 8, 532 56" class="edge"/>
+  <text x="510" y="18" text-anchor="middle" class="label">a</text>
+
+  <line x1="510" y1="124" x2="510" y2="242" class="edge"/>
+  <text x="486" y="190" text-anchor="middle" class="label">b</text>
+
+  <path d="M 478 257 C 420 250, 374 224, 338 118" class="edge"/>
+  <text x="386" y="238" text-anchor="middle" class="label">b</text>
+
+  <path d="M 537 80 C 592 48, 645 74, 678 154" class="edge"/>
+  <text x="610" y="60" text-anchor="middle" class="label">a</text>
+
+  <path d="M 542 264 C 594 228, 634 206, 672 188" class="edge"/>
+  <text x="608" y="221" text-anchor="middle" class="label">a</text>
+
+  <path d="M 670 206 C 628 242, 590 266, 542 288" class="edge"/>
+  <text x="616" y="276" text-anchor="middle" class="label">b</text>
+
+  <path d="M 300 300 C 278 344, 362 344, 340 300" class="edge"/>
+  <text x="320" y="372" text-anchor="middle" class="label">a,b</text>
+
+  <circle cx="120" cy="185" r="34" class="state"/>
+  <text x="120" y="194" text-anchor="middle" class="node">A</text>
+
+  <circle cx="320" cy="90" r="34" class="state"/>
+  <text x="320" y="99" text-anchor="middle" class="node">B</text>
+
+  <circle cx="510" cy="90" r="34" class="state"/>
+  <text x="510" y="99" text-anchor="middle" class="node">C</text>
+
+  <circle cx="510" cy="276" r="34" class="state"/>
+  <text x="510" y="285" text-anchor="middle" class="node">D</text>
+
+  <circle cx="710" cy="185" r="40" class="state"/>
+  <circle cx="710" cy="185" r="34" class="state"/>
+  <text x="710" y="194" text-anchor="middle" class="node">E</text>
+
+  <circle cx="320" cy="276" r="34" class="state"/>
+  <text x="320" y="285" text-anchor="middle" class="node">T</text>
+</svg>
