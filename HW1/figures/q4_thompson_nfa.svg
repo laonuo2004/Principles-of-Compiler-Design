@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#222222"/>
+    </marker>
+    <style>
+      .state { fill: #ffffff; stroke: #222222; stroke-width: 2.1; }
+      .edge { fill: none; stroke: #222222; stroke-width: 2.0; marker-end: url(#arrow); }
+      .label {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 22px;
+      }
+      .node {
+        fill: #222222;
+        font-family: "Times New Roman", "Noto Serif", serif;
+        font-size: 24px;
+      }
+    </style>
+  </defs>
+
+  <line x1="18" y1="250" x2="40" y2="250" class="edge"/>
+
+  <line x1="98" y1="250" x2="142" y2="250" class="edge"/>
+  <text x="120" y="232" text-anchor="middle" class="label">ε</text>
+
+  <path d="M 95 223 C 175 110, 245 64, 320 50 C 660 -6, 860 8, 922 223" class="edge"/>
+  <text x="540" y="18" text-anchor="middle" class="label">ε</text>
+
+  <line x1="192" y1="228" x2="258" y2="162" class="edge"/>
+  <text x="220" y="178" text-anchor="middle" class="label">ε</text>
+
+  <line x1="192" y1="272" x2="258" y2="338" class="edge"/>
+  <text x="220" y="320" text-anchor="middle" class="label">ε</text>
+
+  <line x1="310" y1="140" x2="362" y2="140" class="edge"/>
+  <text x="336" y="122" text-anchor="middle" class="label">ε</text>
+
+  <line x1="310" y1="360" x2="362" y2="360" class="edge"/>
+  <text x="336" y="338" text-anchor="middle" class="label">a</text>
+
+  <line x1="408" y1="161" x2="472" y2="229" class="edge"/>
+  <text x="452" y="180" text-anchor="middle" class="label">ε</text>
+
+  <line x1="408" y1="339" x2="472" y2="271" class="edge"/>
+  <text x="452" y="328" text-anchor="middle" class="label">ε</text>
+
+  <line x1="528" y1="250" x2="582" y2="250" class="edge"/>
+  <text x="555" y="232" text-anchor="middle" class="label">ε</text>
+
+  <line x1="628" y1="228" x2="692" y2="162" class="edge"/>
+  <text x="654" y="178" text-anchor="middle" class="label">ε</text>
+
+  <line x1="628" y1="272" x2="802" y2="338" class="edge"/>
+  <text x="708" y="332" text-anchor="middle" class="label">ε</text>
+
+  <line x1="742" y1="140" x2="802" y2="140" class="edge"/>
+  <text x="772" y="122" text-anchor="middle" class="label">b</text>
+
+  <path d="M 806 166 C 790 212, 750 212, 734 166" class="edge"/>
+  <text x="770" y="218" text-anchor="middle" class="label">ε</text>
+
+  <line x1="830" y1="170" x2="830" y2="330" class="edge"/>
+  <text x="850" y="256" text-anchor="middle" class="label">ε</text>
+
+  <path d="M 804 382 C 650 504, 270 520, 154 280" class="edge"/>
+  <text x="510" y="506" text-anchor="middle" class="label">ε</text>
+
+  <line x1="858" y1="338" x2="922" y2="272" class="edge"/>
+  <text x="902" y="320" text-anchor="middle" class="label">ε</text>
+
+  <circle cx="70" cy="250" r="28" class="state"/>
+  <text x="70" y="258" text-anchor="middle" class="node">q0</text>
+
+  <circle cx="170" cy="250" r="28" class="state"/>
+  <text x="170" y="258" text-anchor="middle" class="node">q1</text>
+
+  <circle cx="280" cy="140" r="28" class="state"/>
+  <text x="280" y="148" text-anchor="middle" class="node">q2</text>
+
+  <circle cx="390" cy="140" r="28" class="state"/>
+  <text x="390" y="148" text-anchor="middle" class="node">q3</text>
+
+  <circle cx="280" cy="360" r="28" class="state"/>
+  <text x="280" y="368" text-anchor="middle" class="node">q4</text>
+
+  <circle cx="390" cy="360" r="28" class="state"/>
+  <text x="390" y="368" text-anchor="middle" class="node">q5</text>
+
+  <circle cx="500" cy="250" r="28" class="state"/>
+  <text x="500" y="258" text-anchor="middle" class="node">q6</text>
+
+  <circle cx="610" cy="250" r="28" class="state"/>
+  <text x="610" y="258" text-anchor="middle" class="node">q9</text>
+
+  <circle cx="720" cy="140" r="28" class="state"/>
+  <text x="720" y="148" text-anchor="middle" class="node">q7</text>
+
+  <circle cx="830" cy="140" r="28" class="state"/>
+  <text x="830" y="148" text-anchor="middle" class="node">q8</text>
+
+  <circle cx="830" cy="360" r="28" class="state"/>
+  <text x="830" y="368" text-anchor="middle" class="node">q10</text>
+
+  <circle cx="950" cy="250" r="34" class="state"/>
+  <circle cx="950" cy="250" r="28" class="state"/>
+  <text x="950" y="258" text-anchor="middle" class="node">q11</text>
+</svg>
