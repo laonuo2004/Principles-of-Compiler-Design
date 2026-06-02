@@ -26,7 +26,7 @@
 
   <!-- I1 -->
   <path class="edge" d="M 294 170 L 464 118"/>
-  <text class="label" x="380" y="125" text-anchor="middle">+</text>
+  <text class="label" x="380" y="136" text-anchor="middle">+</text>
 
   <path class="edge" d="M 296 193 L 466 259"/>
   <text class="label" x="380" y="218" text-anchor="middle">times</text>
@@ -42,37 +42,37 @@
   <text class="label" x="165" y="506" text-anchor="middle">(</text>
 
   <path class="edge" d="M 260 536 L 260 622"/>
-  <text class="label" x="282" y="583">a</text>
+  <text class="label" x="276" y="583">a</text>
 
   <!-- I4 -->
   <path class="edge" d="M 536 113 L 714 127"/>
-  <text class="label" x="626" y="107" text-anchor="middle">R</text>
+  <text class="label" x="626" y="145" text-anchor="middle">R</text>
 
   <path class="edge" d="M 473 134 C 392 210 330 340 280 466"/>
   <text class="label" x="378" y="306" text-anchor="middle">(</text>
 
-  <path class="edge" d="M 485 143 C 430 282 368 545 286 627"/>
-  <text class="label" x="404" y="456" text-anchor="middle">a</text>
+  <path class="edge" d="M 484 143 C 427 283 366 544 285 627"/>
+  <text class="label" x="401" y="445" text-anchor="middle">a</text>
 
   <!-- I5 -->
-  <path class="edge" d="M 536 273 L 714 287"/>
-  <text class="label" x="626" y="267" text-anchor="middle">R</text>
+  <path class="edge" d="M 536 270 C 595 260 655 262 714 284"/>
+  <text class="label" x="626" y="260" text-anchor="middle">R</text>
 
   <path class="edge" d="M 468 287 C 400 340 340 420 290 470"/>
   <text class="label" x="392" y="398" text-anchor="middle">(</text>
 
   <path class="edge" d="M 488 304 C 436 424 370 570 288 631"/>
-  <text class="label" x="426" y="514" text-anchor="middle">a</text>
+  <text class="label" x="420" y="492" text-anchor="middle">a</text>
 
   <!-- I7 -->
-  <path class="edge" d="M 491 465 C 438 340 448 212 480 142"/>
-  <text class="label" x="452" y="304" text-anchor="middle">+</text>
+  <path class="edge" d="M 494 465 C 432 338 444 214 486 143"/>
+  <text class="label" x="462" y="332" text-anchor="middle">+</text>
 
   <path class="edge" d="M 514 466 C 530 396 529 350 514 304"/>
   <text class="label" x="554" y="390" text-anchor="middle">times</text>
 
   <path class="edge" d="M 534 489 C 720 420 875 255 955 123"/>
-  <text class="label" x="778" y="345" text-anchor="middle">*</text>
+  <text class="label" x="812" y="350" text-anchor="middle">*</text>
 
   <path class="edge" d="M 536 500 L 714 500"/>
   <text class="label" x="626" y="484" text-anchor="middle">)</text>
@@ -82,7 +82,7 @@
   <text class="label" x="626" y="76" text-anchor="middle">+</text>
 
   <path class="edge" d="M 724 151 C 660 198 604 244 534 264"/>
-  <text class="label" x="644" y="216" text-anchor="middle">times</text>
+  <text class="label" x="686" y="216" text-anchor="middle">times</text>
 
   <path class="edge" d="M 786 126 L 944 105"/>
   <text class="label" x="866" y="102" text-anchor="middle">*</text>
@@ -91,11 +91,11 @@
   <path class="edge" d="M 718 278 C 640 244 574 184 522 136"/>
   <text class="label" x="636" y="246" text-anchor="middle">+</text>
 
-  <path class="edge" d="M 714 288 C 650 291 592 283 536 274"/>
-  <text class="label" x="626" y="314" text-anchor="middle">times</text>
+  <path class="edge" d="M 714 291 C 651 302 592 296 536 276"/>
+  <text class="label" x="626" y="321" text-anchor="middle">times</text>
 
   <path class="edge" d="M 780 271 C 860 226 914 154 956 121"/>
-  <text class="label" x="884" y="210" text-anchor="middle">*</text>
+  <text class="label" x="848" y="196" text-anchor="middle">*</text>
 
   <!-- states -->
   <circle class="state" cx="90" cy="360" r="36"/>
