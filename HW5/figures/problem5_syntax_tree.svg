@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+  <defs>
+    <style>
+      .node { fill: #ffffff; stroke: #111111; stroke-width: 1.2; }
+      .edge { stroke: #111111; stroke-width: 1.1; fill: none; }
+      .text { font-family: "Times New Roman", "SimSun", serif; font-size: 16px; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+  <rect class="node" x="685" y="20" width="130" height="38" rx="3"/>
+  <text class="text" x="750" y="39">L</text>
+  <line class="edge" x1="750" y1="58" x2="620" y2="110"/>
+  <line class="edge" x1="750" y1="58" x2="950" y2="110"/>
+  <rect class="node" x="515" y="95" width="210" height="42" rx="3"/>
+  <text class="text" x="620" y="116">S: if (B) S else S</text>
+  <rect class="node" x="900" y="95" width="100" height="42" rx="3"/>
+  <text class="text" x="950" y="116">S: z=s;</text>
+  <line class="edge" x1="620" y1="137" x2="230" y2="210"/>
+  <line class="edge" x1="620" y1="137" x2="830" y2="210"/>
+  <line class="edge" x1="620" y1="137" x2="1260" y2="210"/>
+  <rect class="node" x="95" y="190" width="270" height="42" rx="3"/>
+  <text class="text" x="230" y="211">B: (a==b) &amp;&amp; M B</text>
+  <rect class="node" x="740" y="190" width="180" height="42" rx="3"/>
+  <text class="text" x="830" y="211">S: { L }</text>
+  <rect class="node" x="1200" y="190" width="120" height="42" rx="3"/>
+  <text class="text" x="1260" y="211">S: s=y;</text>
+  <line class="edge" x1="230" y1="232" x2="120" y2="305"/>
+  <line class="edge" x1="230" y1="232" x2="340" y2="305"/>
+  <rect class="node" x="45" y="285" width="150" height="42" rx="3"/>
+  <text class="text" x="120" y="306">B: a==b</text>
+  <rect class="node" x="255" y="285" width="170" height="42" rx="3"/>
+  <text class="text" x="340" y="306">B: B || M B</text>
+  <line class="edge" x1="340" y1="327" x2="250" y2="400"/>
+  <line class="edge" x1="340" y1="327" x2="430" y2="400"/>
+  <rect class="node" x="175" y="380" width="150" height="42" rx="3"/>
+  <text class="text" x="250" y="401">B: c==d</text>
+  <rect class="node" x="355" y="380" width="150" height="42" rx="3"/>
+  <text class="text" x="430" y="401">B: e==f</text>
+  <line class="edge" x1="830" y1="232" x2="830" y2="305"/>
+  <rect class="node" x="750" y="285" width="160" height="42" rx="3"/>
+  <text class="text" x="830" y="306">L: L M S</text>
+  <line class="edge" x1="830" y1="327" x2="750" y2="400"/>
+  <line class="edge" x1="830" y1="327" x2="980" y2="400"/>
+  <rect class="node" x="650" y="380" width="200" height="42" rx="3"/>
+  <text class="text" x="750" y="401">S: while M (B) M S</text>
+  <rect class="node" x="935" y="380" width="90" height="42" rx="3"/>
+  <text class="text" x="980" y="401">S: s=x;</text>
+  <line class="edge" x1="750" y1="422" x2="660" y2="505"/>
+  <line class="edge" x1="750" y1="422" x2="865" y2="505"/>
+  <rect class="node" x="580" y="485" width="160" height="42" rx="3"/>
+  <text class="text" x="660" y="506">B: !(x==y)</text>
+  <rect class="node" x="805" y="485" width="120" height="42" rx="3"/>
+  <text class="text" x="865" y="506">S: x=x+y;</text>
+  <line class="edge" x1="660" y1="527" x2="660" y2="610"/>
+  <rect class="node" x="595" y="590" width="130" height="42" rx="3"/>
+  <text class="text" x="660" y="611">B: x==y</text>
+</svg>

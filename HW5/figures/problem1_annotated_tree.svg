@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640">
+  <defs>
+    <style>
+      .node { fill: #ffffff; stroke: #111111; stroke-width: 1.2; }
+      .edge { stroke: #111111; stroke-width: 1.1; fill: none; }
+      .text { font-family: "Times New Roman", "SimSun", serif; font-size: 18px; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+  </defs>
+  <g>
+    <line class="edge" x1="380" y1="70" x2="300" y2="140"/>
+    <line class="edge" x1="380" y1="70" x2="500" y2="140"/>
+    <line class="edge" x1="300" y1="160" x2="245" y2="230"/>
+    <line class="edge" x1="300" y1="160" x2="390" y2="230"/>
+    <line class="edge" x1="245" y1="250" x2="190" y2="320"/>
+    <line class="edge" x1="245" y1="250" x2="335" y2="320"/>
+    <line class="edge" x1="190" y1="340" x2="135" y2="410"/>
+    <line class="edge" x1="190" y1="340" x2="280" y2="410"/>
+    <line class="edge" x1="135" y1="430" x2="90" y2="500"/>
+    <line class="edge" x1="135" y1="430" x2="225" y2="500"/>
+    <line class="edge" x1="90" y1="520" x2="55" y2="585"/>
+    <line class="edge" x1="90" y1="520" x2="155" y2="585"/>
+  </g>
+  <g>
+    <rect class="node" x="315" y="45" width="130" height="50" rx="3"/>
+    <text class="text" x="380" y="70">S.val=45</text>
+    <rect class="node" x="235" y="125" width="130" height="50" rx="3"/>
+    <text class="text" x="300" y="150">B.val=45</text>
+    <rect class="node" x="470" y="125" width="60" height="50" rx="3"/>
+    <text class="text" x="500" y="150">#</text>
+    <rect class="node" x="180" y="215" width="130" height="50" rx="3"/>
+    <text class="text" x="245" y="240">B.val=22</text>
+    <rect class="node" x="360" y="215" width="60" height="50" rx="3"/>
+    <text class="text" x="390" y="240">1</text>
+    <rect class="node" x="125" y="305" width="130" height="50" rx="3"/>
+    <text class="text" x="190" y="330">B.val=11</text>
+    <rect class="node" x="305" y="305" width="60" height="50" rx="3"/>
+    <text class="text" x="335" y="330">0</text>
+    <rect class="node" x="75" y="395" width="120" height="50" rx="3"/>
+    <text class="text" x="135" y="420">B.val=5</text>
+    <rect class="node" x="250" y="395" width="60" height="50" rx="3"/>
+    <text class="text" x="280" y="420">1</text>
+    <rect class="node" x="35" y="485" width="110" height="50" rx="3"/>
+    <text class="text" x="90" y="510">B.val=2</text>
+    <rect class="node" x="195" y="485" width="60" height="50" rx="3"/>
+    <text class="text" x="225" y="510">1</text>
+    <rect class="node" x="15" y="570" width="80" height="45" rx="3"/>
+    <text class="text" x="55" y="592">B.val=1</text>
+    <rect class="node" x="125" y="570" width="60" height="45" rx="3"/>
+    <text class="text" x="155" y="592">0</text>
+  </g>
+</svg>
